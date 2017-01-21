@@ -1,0 +1,6 @@
+@echo off
+@echo Compiling game...
+@echo Creating cartridge...
+lcc -Wa-l -Wl-m -o smile.gb main.c
+del smile.map
+pause
